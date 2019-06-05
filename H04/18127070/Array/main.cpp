@@ -9,7 +9,7 @@ int main()
 		cout << "Array m1 size is: " << m1.getSize() << endl;
 		cout << "Array m2 size is: " << m2.getSize() << endl;
 		cout << "Array m3 size is: " << m3.getSize() << endl;
-		cout << "Input 14 intergers for the arrays: ";
+		cout << "Input 11 intergers for the arrays: ";
 		cin >> m1 >> m2;
 		cout << "arr1[]: " << m1 << "arr2[]: " << m2;
 		Array m4(m2);
@@ -17,8 +17,8 @@ int main()
 		m5 = m2;
 		cin >> m2;
 		cout << m2;
-		cout << m3[7];
-		m3[7] = 1;
+		cout << m3[5];
+		m3[5] = 1;
 		cout << (int)m4;
 		int a[100];
 		int n = 7;

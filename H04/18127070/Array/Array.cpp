@@ -11,13 +11,10 @@ Array::Array(int array_size)
 
 Array::Array(int* ptr, int n)
 {
-	int a[100];
-	ptr = a;
-	n = 7;
-	for (int i = 0; i < n; i++)
-	{
-		ptr[i] = i * 2 / 7;
-	}
+	size = n;
+	ptr = new int[size];
+	for(int i = 0; i < size; i++)
+		this->ptr[i] = ptr[i];
 }
 
 Array::~Array()
